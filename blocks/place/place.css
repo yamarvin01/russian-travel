@@ -1,7 +1,7 @@
 .place {
   max-width: 984px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.95fr 1fr;
   grid-template-rows: repeat(2, min-content);
   column-gap: 40px;
   row-gap: 48px;
@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .place {
     display: flex;
     flex-direction: column;
